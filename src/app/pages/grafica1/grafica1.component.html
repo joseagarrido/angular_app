@@ -1,1 +1,20 @@
-<p>grafica1 works!</p>
+<div class="row">
+    <div class="col-6">
+        <div class="card">
+           <app-grafica
+                [doughnutChartData]="Data1"
+                [doughnutChartLabels]="Label1"
+                [titulo]="'Ventas'"
+           ></app-grafica>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card">
+           <app-grafica
+                [doughnutChartData]="Data2"
+                [doughnutChartLabels]="Label2"
+                [titulo]="'Compras'"
+           ></app-grafica>
+        </div>
+    </div>
+</div>
